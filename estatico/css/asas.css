@@ -1,0 +1,123 @@
+.cabecalho
+{
+	vertical-align: middle;
+	text-align: center;
+	color: yellow;
+	text-decoration-color: white;
+}
+
+a.link-cabecalho
+{
+	color: white;
+}
+
+a.link-cabecalho:hover
+{
+	color: #bbbbbbbb;
+}
+
+a.destaque-menu:hover
+{
+	color: white;
+	background-color: green;
+}
+
+a.link-ausencia
+{
+	color: darkblue !important;
+	cursor: pointer;
+}
+
+a.link-ausencia:hover
+{
+	color: orangered !important;
+	cursor: pointer;
+}
+
+a.link-ausencia-desabilitado
+{
+	color: gray !important;
+	cursor: auto;
+}
+
+.loader
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('/static/img/asas.png') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .9;
+}
+
+input.campo-mes-ano
+{
+   width: 307px;
+}
+
+.loginContainer
+{
+	background: #57b846;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	padding: 1px 15px 50px 2px;
+	border-radius: 15px;
+ }
+
+.votacaoContainer
+{
+	margin-top: 15px;
+	background: #205317;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+ }
+
+.login
+{
+	justify-content: center;
+	align-items: center;
+	padding: 1px 15px 30px 3px;
+	border-radius: 15px;
+	width: 100%;
+	background-color:#ececec;
+	width: 55%;
+}
+
+button.login
+{
+	color: black;
+	text-align: center;
+	background:white;
+	padding:1px 15px 3px 2px;;
+	border-radius: 15px;
+	width: 100%;
+}
+
+img.login
+{
+	background: #57b846;
+	width: auto;
+    height: auto;
+}
+
+img.bem
+{
+	max-width: 250px !important;
+	max-height: 250px !important;
+}
+
+.votacao-nome-cargo
+{
+	background-color: #ececec;
+	border-top-width: 4px;
+	width: 100%;
+}
+
+@media print
+{
+    .nao-imprimir { display: none; }
+}
